@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.github.davidmoten</groupId>
+        <groupId>com.github.deathmorlock</groupId>
         <artifactId>sonatype-parent</artifactId>
         <version>0.1</version>
     </parent>
@@ -13,7 +13,7 @@
     <description>Sorts big files</description>
     <packaging>jar</packaging>
 
-    <url>http://github.com/davidmoten/big-sorter</url>
+    <url>http://github.com/deathmorlock/big-sorter</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,12 +49,12 @@
 
     <ciManagement>
         <system>Travis</system>
-        <url>https://travis-ci.org/davidmoten/big-sorter</url>
+        <url>https://travis-ci.org/deathmorlock/big-sorter</url>
     </ciManagement>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/davidmoten/big-sorter/issues</url>
+        <url>https://github.com/deathmorlock/big-sorter/issues</url>
     </issueManagement>
 
     <inceptionYear>2019</inceptionYear>
@@ -62,7 +62,7 @@
         <developer>
             <id>dave</id>
             <name>Dave Moten</name>
-            <url>https://github.com/davidmoten/</url>
+            <url>https://github.com/deathmorlock/</url>
             <roles>
                 <role>architect</role>
                 <role>developer</role>
@@ -72,16 +72,16 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/davidmoten/big-sorter.git</connection>
-        <developerConnection>scm:git:https://github.com/davidmoten/big-sorter.git</developerConnection>
-        <url>scm:git:https://github.com:davidmoten/big-sorter.git</url>
+        <connection>scm:git:https://github.com/deathmorlock/big-sorter.git</connection>
+        <developerConnection>scm:git:https://github.com/deathmorlock/big-sorter.git</developerConnection>
+        <url>scm:git:https://github.com:deathmorlock/big-sorter.git</url>
         <tag>HEAD</tag>
     </scm>
 
     <dependencies>
 
         <dependency>
-            <groupId>com.github.davidmoten</groupId>
+            <groupId>com.github.deathmorlock</groupId>
             <artifactId>guava-mini</artifactId>
             <version>0.1.2</version>
         </dependency>
@@ -94,7 +94,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.davidmoten</groupId>
+            <groupId>com.github.deathmorlock</groupId>
             <artifactId>junit-extras</artifactId>
             <version>0.3</version>
             <scope>test</scope>
@@ -115,7 +115,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.davidmoten</groupId>
+            <groupId>com.github.deathmorlock</groupId>
             <artifactId>hilbert-curve</artifactId>
             <version>0.2.1</version>
             <scope>test</scope>
